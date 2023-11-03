@@ -1,0 +1,23 @@
+.main{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    width: 99%;
+    margin: auto;
+    gap: 10px;
+    text-align: center;
+    
+}
+*{
+    /* border: 1px solid black; */
+}
+.main img{
+    width: 100%;
+}
+button{
+    background-color: aqua;
+    color: brown;
+    font-weight: 600;
+    border: 0px;
+    padding: 8px;
+    border-radius: 10px;
+}
